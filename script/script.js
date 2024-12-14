@@ -2,7 +2,7 @@ $(document).ready(function () {
     let currentInput = ""; // Stores the current input for display
     let operatorClicked = false; // Prevents multiple operators in a row
 
-    // Append values to the display
+    // Append values to the displaY
     $(".button").not(".operator, .clear, .equal").on("click", function () {
         const value = $(this).data("value");
         currentInput += value;
